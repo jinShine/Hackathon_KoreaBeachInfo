@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		15FB4E682100DDE20071F8E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FB4E672100DDE20071F8E2 /* AppDelegate.swift */; };
-		15FB4E6A2100DDE20071F8E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FB4E692100DDE20071F8E2 /* ViewController.swift */; };
 		15FB4E6D2100DDE20071F8E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15FB4E6B2100DDE20071F8E2 /* Main.storyboard */; };
 		15FB4E6F2100DDE30071F8E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15FB4E6E2100DDE30071F8E2 /* Assets.xcassets */; };
 		15FB4E722100DDE30071F8E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15FB4E702100DDE30071F8E2 /* LaunchScreen.storyboard */; };
+		15FB4E7A2100E2480071F8E2 /* RegionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FB4E792100E2480071F8E2 /* RegionViewController.swift */; };
 		8FB339C576D127CFECF60D9A /* Pods_KoreaBeachInfo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE1290FCE647A7655C78CEC3 /* Pods_KoreaBeachInfo.framework */; };
 /* End PBXBuildFile section */
 
@@ -19,11 +19,11 @@
 		0A848A1402D35C86900C6B2E /* Pods-KoreaBeachInfo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KoreaBeachInfo.release.xcconfig"; path = "Pods/Target Support Files/Pods-KoreaBeachInfo/Pods-KoreaBeachInfo.release.xcconfig"; sourceTree = "<group>"; };
 		15FB4E642100DDE20071F8E2 /* KoreaBeachInfo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KoreaBeachInfo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15FB4E672100DDE20071F8E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		15FB4E692100DDE20071F8E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		15FB4E6C2100DDE20071F8E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		15FB4E6E2100DDE30071F8E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		15FB4E712100DDE30071F8E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		15FB4E732100DDE30071F8E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15FB4E792100E2480071F8E2 /* RegionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionViewController.swift; sourceTree = "<group>"; };
 		35B6F29E369D067441077E06 /* Pods-KoreaBeachInfo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KoreaBeachInfo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KoreaBeachInfo/Pods-KoreaBeachInfo.debug.xcconfig"; sourceTree = "<group>"; };
 		FE1290FCE647A7655C78CEC3 /* Pods_KoreaBeachInfo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KoreaBeachInfo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -62,8 +62,8 @@
 			isa = PBXGroup;
 			children = (
 				15FB4E672100DDE20071F8E2 /* AppDelegate.swift */,
-				15FB4E692100DDE20071F8E2 /* ViewController.swift */,
 				15FB4E6B2100DDE20071F8E2 /* Main.storyboard */,
+				15FB4E792100E2480071F8E2 /* RegionViewController.swift */,
 				15FB4E6E2100DDE30071F8E2 /* Assets.xcassets */,
 				15FB4E702100DDE30071F8E2 /* LaunchScreen.storyboard */,
 				15FB4E732100DDE30071F8E2 /* Info.plist */,
@@ -202,8 +202,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15FB4E6A2100DDE20071F8E2 /* ViewController.swift in Sources */,
 				15FB4E682100DDE20071F8E2 /* AppDelegate.swift in Sources */,
+				15FB4E7A2100E2480071F8E2 /* RegionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
