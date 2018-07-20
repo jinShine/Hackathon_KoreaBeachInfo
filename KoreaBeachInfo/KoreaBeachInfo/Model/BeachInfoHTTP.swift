@@ -22,7 +22,7 @@ struct BeachInfoHTTP {
             "startPage": 1,
             "numOfRows": 999,
             "pageSize": 10,
-            "SIDO_NM": name,
+            "SIDO_NM":name,
             "resultType": "json",
             ]
         

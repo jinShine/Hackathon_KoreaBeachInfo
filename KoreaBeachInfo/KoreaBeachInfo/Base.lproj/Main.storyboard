@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="C6H-6y-o8T">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -10,80 +10,80 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Region View Controller-->
+        <!--떠나요!-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="RegionViewController" customModule="KoreaBeachInfo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kbZ-or-hqQ" userLabel="충청북도">
-                                <rect key="frame" x="158" y="285.5" width="79" height="96"/>
+                                <rect key="frame" x="130.5" y="236" width="79" height="96"/>
                                 <state key="normal" backgroundImage="Chungcheongbukdo"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6K2-Da-WHy" userLabel="경상북도">
-                                <rect key="frame" x="193" y="283" width="148" height="127"/>
+                                <rect key="frame" x="165.5" y="233.5" width="148" height="127"/>
                                 <state key="normal" backgroundImage="Gyeongsangbukdo"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WHI-ts-KsU" userLabel="부산">
-                                <rect key="frame" x="233" y="424" width="53" height="32"/>
+                                <rect key="frame" x="205.5" y="374.5" width="53" height="32"/>
                                 <state key="normal" backgroundImage="Busan"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QKz-UD-Oc2" userLabel="경상남도">
-                                <rect key="frame" x="176" y="387" width="104" height="90"/>
+                                <rect key="frame" x="148.5" y="337.5" width="104" height="90"/>
                                 <state key="normal" backgroundImage="Gyeongsangnamdo"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hl0-oc-82G" userLabel="대구">
-                                <rect key="frame" x="225" y="377" width="26" height="31"/>
+                                <rect key="frame" x="197.5" y="327.5" width="26" height="31"/>
                                 <state key="normal" backgroundImage="Daegu"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PNC-F2-A4L" userLabel="전라북도">
-                                <rect key="frame" x="104" y="370.5" width="94" height="61"/>
+                                <rect key="frame" x="76.5" y="321" width="94" height="61"/>
                                 <state key="normal" backgroundImage="Jeollabukdo"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="04U-Tt-gTT" userLabel="전라남도">
-                                <rect key="frame" x="65" y="412.5" width="132" height="103"/>
+                                <rect key="frame" x="37.5" y="363" width="132" height="103"/>
                                 <state key="normal" backgroundImage="Jeollanamdo"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Lg-1Y-bK1" userLabel="울산">
-                                <rect key="frame" x="266" y="399" width="32" height="35"/>
+                                <rect key="frame" x="238.5" y="349.5" width="32" height="35"/>
                                 <state key="normal" backgroundImage="Ulsan"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JO1-58-RjL" userLabel="제주도">
-                                <rect key="frame" x="70" y="539.5" width="62" height="36"/>
+                                <rect key="frame" x="42.5" y="490" width="62" height="36"/>
                                 <state key="normal" backgroundImage="Jeju"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qZf-gN-8ya" userLabel="광주">
-                                <rect key="frame" x="115.5" y="445" width="31" height="18"/>
+                                <rect key="frame" x="88" y="395.5" width="31" height="18"/>
                                 <state key="normal" backgroundImage="Gwangju"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ocK-mb-dfF" userLabel="충청남도">
-                                <rect key="frame" x="78" y="298.5" width="103" height="84"/>
+                                <rect key="frame" x="50.5" y="249" width="103" height="84"/>
                                 <state key="normal" backgroundImage="Chungcheongnamdo"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J4e-tp-MN9" userLabel="대전">
-                                <rect key="frame" x="155" y="342.5" width="21" height="23"/>
+                                <rect key="frame" x="127.5" y="293" width="21" height="23"/>
                                 <state key="normal" backgroundImage="Daejeon"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c5T-jB-Y1i" userLabel="경기도">
-                                <rect key="frame" x="109" y="209.5" width="82" height="102"/>
+                                <rect key="frame" x="81.5" y="160" width="82" height="102"/>
                                 <state key="normal" backgroundImage="Gyeonggido"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cof-dJ-tHV" userLabel="인천">
-                                <rect key="frame" x="91" y="239.5" width="38" height="37"/>
+                                <rect key="frame" x="63.5" y="190" width="38" height="37"/>
                                 <state key="normal" backgroundImage="Incheon"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J2q-S0-gnu" userLabel="강원도">
-                                <rect key="frame" x="148" y="194" width="140" height="107"/>
+                                <rect key="frame" x="120.5" y="144.5" width="140" height="107"/>
                                 <state key="normal" backgroundImage="Gangwondo"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qxv-qS-qgU" userLabel="서울">
-                                <rect key="frame" x="126" y="255.5" width="29" height="21"/>
+                                <rect key="frame" x="98.5" y="206" width="29" height="21"/>
                                 <state key="normal" backgroundImage="Seoul"/>
                             </button>
                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QSH-Td-3eg">
-                                <rect key="frame" x="21" y="242" width="35" height="35"/>
+                                <rect key="frame" x="-6.5" y="192.5" width="35" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="35" id="dck-IZ-loM"/>
                                     <constraint firstAttribute="width" constant="35" id="yDV-FI-Bau"/>
@@ -94,7 +94,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M7q-zE-D6B">
-                                <rect key="frame" x="43" y="323" width="35" height="35"/>
+                                <rect key="frame" x="15.5" y="273.5" width="35" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="35" id="WG2-bQ-Sw0"/>
                                     <constraint firstAttribute="width" constant="35" id="kLD-i0-JUE"/>
@@ -105,7 +105,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="05s-ZZ-Tvk">
-                                <rect key="frame" x="64" y="384" width="35" height="35"/>
+                                <rect key="frame" x="36.5" y="334.5" width="35" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="35" id="AHx-K9-boY"/>
                                     <constraint firstAttribute="width" constant="35" id="SCZ-tv-7aT"/>
@@ -116,7 +116,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eoU-Ik-Odv">
-                                <rect key="frame" x="45" y="480.5" width="35" height="35"/>
+                                <rect key="frame" x="17.5" y="431" width="35" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="35" id="Uag-T0-TC8"/>
                                     <constraint firstAttribute="width" constant="35" id="wVj-Vs-QnO"/>
@@ -127,7 +127,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z4h-j6-yNr">
-                                <rect key="frame" x="50" y="550" width="35" height="35"/>
+                                <rect key="frame" x="22.5" y="500.5" width="35" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="35" id="Okw-Vl-Mez"/>
                                     <constraint firstAttribute="height" constant="35" id="SLa-4D-ecf"/>
@@ -138,7 +138,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u1v-w9-j3p">
-                                <rect key="frame" x="176" y="458" width="35" height="35"/>
+                                <rect key="frame" x="148.5" y="408.5" width="35" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="35" id="2z8-eM-r1W"/>
                                     <constraint firstAttribute="width" constant="35" id="A1M-e0-VCc"/>
@@ -149,7 +149,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L0p-eW-8oM">
-                                <rect key="frame" x="251" y="422.5" width="35" height="35"/>
+                                <rect key="frame" x="223.5" y="373" width="35" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="35" id="K2t-4o-N9U"/>
                                     <constraint firstAttribute="width" constant="35" id="rfF-uC-kcM"/>
@@ -160,7 +160,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KdL-c9-MoX">
-                                <rect key="frame" x="268" y="389" width="35" height="35"/>
+                                <rect key="frame" x="240.5" y="339.5" width="35" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="35" id="gGg-mx-MRi"/>
                                     <constraint firstAttribute="width" constant="35" id="suG-jL-npS"/>
@@ -171,7 +171,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oq1-S2-7xc">
-                                <rect key="frame" x="256" y="329" width="35" height="35"/>
+                                <rect key="frame" x="228.5" y="279.5" width="35" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="35" id="j1p-zw-Uyd"/>
                                     <constraint firstAttribute="height" constant="35" id="rzl-CB-mnW"/>
@@ -182,7 +182,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A6b-5R-7d2">
-                                <rect key="frame" x="233" y="230" width="35" height="35"/>
+                                <rect key="frame" x="205.5" y="180.5" width="35" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="35" id="23Z-XF-kG9"/>
                                     <constraint firstAttribute="height" constant="35" id="JWN-Ne-POT"/>
@@ -193,7 +193,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Awh-xP-d2T">
-                                <rect key="frame" x="64" y="243.5" width="30" height="33"/>
+                                <rect key="frame" x="36.5" y="194" width="30" height="33"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
                                 <state key="normal" title="인천">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -203,7 +203,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aTW-6O-Sfv">
-                                <rect key="frame" x="82" y="323.5" width="30" height="33"/>
+                                <rect key="frame" x="54.5" y="274" width="30" height="33"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
                                 <state key="normal" title="충남">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -213,7 +213,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nb1-LJ-8uh">
-                                <rect key="frame" x="107" y="385" width="30" height="33"/>
+                                <rect key="frame" x="79.5" y="335.5" width="30" height="33"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
                                 <state key="normal" title="전북">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -223,7 +223,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V4J-z9-IbX">
-                                <rect key="frame" x="90" y="481.5" width="30" height="33"/>
+                                <rect key="frame" x="62.5" y="432" width="30" height="33"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
                                 <state key="normal" title="전남">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -233,7 +233,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n4a-1N-8AN">
-                                <rect key="frame" x="89" y="551" width="30" height="33"/>
+                                <rect key="frame" x="61.5" y="501.5" width="30" height="33"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
                                 <state key="normal" title="제주">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -243,7 +243,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u1T-Lq-f9w">
-                                <rect key="frame" x="219" y="459" width="30" height="33"/>
+                                <rect key="frame" x="191.5" y="409.5" width="30" height="33"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
                                 <state key="normal" title="경남">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -253,7 +253,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3mz-xo-WGz">
-                                <rect key="frame" x="298" y="423.5" width="30" height="33"/>
+                                <rect key="frame" x="270.5" y="374" width="30" height="33"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
                                 <state key="normal" title="부산">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -263,7 +263,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gme-1o-ZxI">
-                                <rect key="frame" x="311" y="390" width="30" height="33"/>
+                                <rect key="frame" x="283.5" y="340.5" width="30" height="33"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
                                 <state key="normal" title="울산">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -273,7 +273,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ww0-zu-s1P">
-                                <rect key="frame" x="299" y="330" width="30" height="33"/>
+                                <rect key="frame" x="271.5" y="280.5" width="30" height="33"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
                                 <state key="normal" title="경북">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -283,7 +283,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GAg-aM-XrI">
-                                <rect key="frame" x="276" y="231.5" width="30" height="33"/>
+                                <rect key="frame" x="248.5" y="182" width="30" height="33"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
                                 <state key="normal" title="강원">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -370,40 +370,40 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" id="s4f-5S-qOD"/>
+                    <navigationItem key="navigationItem" title="떠나요!" id="s4f-5S-qOD"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="854" y="-664"/>
+            <point key="canvasLocation" x="853.125" y="-664.43661971830988"/>
         </scene>
         <!--Beach Map View Controller-->
         <scene sceneID="6g4-bm-cBU">
             <objects>
                 <viewController storyboardIdentifier="BeachMapVC" id="WrN-jz-WFO" customClass="BeachMapViewController" customModule="KoreaBeachInfo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KQJ-Ii-dAB">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="zJO-aE-5cx">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <connections>
                                     <outlet property="delegate" destination="WrN-jz-WFO" id="KKW-Ky-shC"/>
                                 </connections>
                             </mapView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="standard" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7eO-uq-Roh">
-                                <rect key="frame" x="318.5" y="40" width="46.5" height="12"/>
+                                <rect key="frame" x="263.5" y="40" width="46.5" height="12"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="10"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="w0i-3T-bBu">
-                                <rect key="frame" x="261.5" y="31" width="51" height="31"/>
+                                <rect key="frame" x="206.5" y="31" width="51" height="31"/>
                                 <connections>
                                     <action selector="mapTypeSwitch:" destination="WrN-jz-WFO" eventType="valueChanged" id="ny0-2d-CJE"/>
                                 </connections>
                             </switch>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="satellite" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DXH-hr-MAQ">
-                                <rect key="frame" x="212" y="40" width="41.5" height="12"/>
+                                <rect key="frame" x="157" y="40" width="41.5" height="12"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="10"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -411,14 +411,14 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="asC-13-fmu" firstAttribute="bottom" secondItem="zJO-aE-5cx" secondAttribute="bottom" id="9F9-HQ-JUe"/>
+                            <constraint firstAttribute="bottom" secondItem="zJO-aE-5cx" secondAttribute="bottom" id="9F9-HQ-JUe"/>
                             <constraint firstItem="w0i-3T-bBu" firstAttribute="leading" secondItem="DXH-hr-MAQ" secondAttribute="trailing" constant="8" id="HSV-ja-wwM"/>
-                            <constraint firstItem="asC-13-fmu" firstAttribute="trailing" secondItem="zJO-aE-5cx" secondAttribute="trailing" id="Nrs-zU-2aJ"/>
+                            <constraint firstAttribute="trailing" secondItem="zJO-aE-5cx" secondAttribute="trailing" id="Nrs-zU-2aJ"/>
                             <constraint firstItem="w0i-3T-bBu" firstAttribute="centerY" secondItem="DXH-hr-MAQ" secondAttribute="centerY" id="OO0-DR-GEJ"/>
                             <constraint firstItem="asC-13-fmu" firstAttribute="trailing" secondItem="7eO-uq-Roh" secondAttribute="trailing" constant="10" id="Qsa-ly-6bZ"/>
                             <constraint firstItem="7eO-uq-Roh" firstAttribute="top" secondItem="asC-13-fmu" secondAttribute="top" constant="20" id="X8U-01-gMs"/>
                             <constraint firstItem="7eO-uq-Roh" firstAttribute="centerY" secondItem="w0i-3T-bBu" secondAttribute="centerY" id="XFj-91-RV6"/>
-                            <constraint firstItem="zJO-aE-5cx" firstAttribute="leading" secondItem="asC-13-fmu" secondAttribute="leading" id="c7f-lC-fcI"/>
+                            <constraint firstItem="zJO-aE-5cx" firstAttribute="leading" secondItem="KQJ-Ii-dAB" secondAttribute="leading" id="c7f-lC-fcI"/>
                             <constraint firstItem="zJO-aE-5cx" firstAttribute="top" secondItem="KQJ-Ii-dAB" secondAttribute="top" id="ehi-Rx-pvR"/>
                             <constraint firstItem="7eO-uq-Roh" firstAttribute="leading" secondItem="w0i-3T-bBu" secondAttribute="trailing" constant="8" id="hTk-qS-dRV"/>
                         </constraints>
@@ -432,13 +432,173 @@
             </objects>
             <point key="canvasLocation" x="1582" y="-664"/>
         </scene>
+        <!--Info Pop Up View Controller-->
+        <scene sceneID="h1u-GS-sJN">
+            <objects>
+                <viewController storyboardIdentifier="InfoPopUpVC" id="jVN-1a-kwp" customClass="InfoPopUpViewController" customModule="KoreaBeachInfo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hHv-hv-Ig4">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="42q-4r-FMD">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yoj-6G-CIu">
+                                <rect key="frame" x="266" y="44" width="14" height="22"/>
+                                <state key="normal" image="Clear"/>
+                                <connections>
+                                    <action selector="backButton:" destination="jVN-1a-kwp" eventType="touchUpInside" id="PoZ-Am-paA"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="356-A3-S64">
+                                <rect key="frame" x="40" y="69" width="240" height="430"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BeachImage1" translatesAutoresizingMaskIntoConstraints="NO" id="Brd-jB-7nB">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="200"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="200" id="C9q-Qd-ici"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="하나개 해수욕장" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hBw-0E-twA">
+                                        <rect key="frame" x="8" y="216" width="224" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="인천 중구" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UrO-J1-QVE">
+                                        <rect key="frame" x="8" y="245" width="224" height="14.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="해변 폭 : " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="quF-Zw-dFJ">
+                                        <rect key="frame" x="8" y="289.5" width="45" height="14.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="해변 길이 : " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kp7-fb-sXw">
+                                        <rect key="frame" x="8" y="312" width="55.5" height="14.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="해당 사이트 : " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="czt-0r-hSM">
+                                        <rect key="frame" x="8" y="342.5" width="66" height="15"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="비상연락처 : " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lqr-Ko-jvP">
+                                        <rect key="frame" x="8" y="377.5" width="62.5" height="15"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="50M" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nSf-lc-qvc">
+                                        <rect key="frame" x="63" y="289" width="150" height="15"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="150" id="6aD-yS-NuM"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="700M" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KbG-5o-lvo">
+                                        <rect key="frame" x="73.5" y="311" width="150" height="15"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="150" id="ebc-nP-lY4"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="http://tor.yd.go.kr/kor/sight/sight.view.aspx?idxe/adf" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5cy-hL-7st">
+                                        <rect key="frame" x="82" y="336" width="150" height="29"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="150" id="5kP-GD-bnP"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="인천보건지소 (032-327-8910)" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uUa-38-gY4">
+                                        <rect key="frame" x="78.5" y="371" width="150" height="29"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="150" id="Pcd-k8-86d"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="UrO-J1-QVE" firstAttribute="top" secondItem="hBw-0E-twA" secondAttribute="bottom" constant="8" id="1J9-3L-0PA"/>
+                                    <constraint firstItem="Lqr-Ko-jvP" firstAttribute="leading" secondItem="356-A3-S64" secondAttribute="leading" constant="8" id="5Jg-oF-oAy"/>
+                                    <constraint firstItem="czt-0r-hSM" firstAttribute="top" secondItem="kp7-fb-sXw" secondAttribute="bottom" constant="16" id="5MT-3R-6uC"/>
+                                    <constraint firstItem="czt-0r-hSM" firstAttribute="leading" secondItem="356-A3-S64" secondAttribute="leading" constant="8" id="86q-0o-NH4"/>
+                                    <constraint firstAttribute="trailing" secondItem="Brd-jB-7nB" secondAttribute="trailing" id="AKf-sj-YVn"/>
+                                    <constraint firstItem="Brd-jB-7nB" firstAttribute="top" secondItem="356-A3-S64" secondAttribute="top" id="BlD-xi-vlL"/>
+                                    <constraint firstItem="kp7-fb-sXw" firstAttribute="top" secondItem="quF-Zw-dFJ" secondAttribute="bottom" constant="8" id="FXJ-Su-GGf"/>
+                                    <constraint firstItem="kp7-fb-sXw" firstAttribute="leading" secondItem="356-A3-S64" secondAttribute="leading" constant="8" id="HNi-In-XTc"/>
+                                    <constraint firstAttribute="trailing" secondItem="hBw-0E-twA" secondAttribute="trailing" constant="8" id="HwJ-Xl-N1E"/>
+                                    <constraint firstItem="KbG-5o-lvo" firstAttribute="centerY" secondItem="kp7-fb-sXw" secondAttribute="centerY" id="Ivx-dz-99I"/>
+                                    <constraint firstItem="nSf-lc-qvc" firstAttribute="centerY" secondItem="quF-Zw-dFJ" secondAttribute="centerY" id="K22-Jb-zvU"/>
+                                    <constraint firstItem="Lqr-Ko-jvP" firstAttribute="top" secondItem="czt-0r-hSM" secondAttribute="bottom" constant="20" id="Thd-lO-kyf"/>
+                                    <constraint firstItem="KbG-5o-lvo" firstAttribute="leading" secondItem="kp7-fb-sXw" secondAttribute="trailing" constant="10" id="TrQ-4i-0QP"/>
+                                    <constraint firstItem="Brd-jB-7nB" firstAttribute="leading" secondItem="356-A3-S64" secondAttribute="leading" id="VEe-yR-JbG"/>
+                                    <constraint firstItem="UrO-J1-QVE" firstAttribute="leading" secondItem="356-A3-S64" secondAttribute="leading" constant="8" id="X2Q-jV-MPL"/>
+                                    <constraint firstItem="nSf-lc-qvc" firstAttribute="leading" secondItem="quF-Zw-dFJ" secondAttribute="trailing" constant="10" id="XjX-et-GsP"/>
+                                    <constraint firstItem="quF-Zw-dFJ" firstAttribute="leading" secondItem="356-A3-S64" secondAttribute="leading" constant="8" id="cJP-a7-mwq"/>
+                                    <constraint firstItem="hBw-0E-twA" firstAttribute="leading" secondItem="356-A3-S64" secondAttribute="leading" constant="8" id="cmI-tA-ONg"/>
+                                    <constraint firstItem="hBw-0E-twA" firstAttribute="top" secondItem="Brd-jB-7nB" secondAttribute="bottom" constant="16" id="gGf-hb-XWJ"/>
+                                    <constraint firstItem="uUa-38-gY4" firstAttribute="centerY" secondItem="Lqr-Ko-jvP" secondAttribute="centerY" id="hIx-rP-suy"/>
+                                    <constraint firstItem="5cy-hL-7st" firstAttribute="centerY" secondItem="czt-0r-hSM" secondAttribute="centerY" id="l1e-ey-XQL"/>
+                                    <constraint firstItem="5cy-hL-7st" firstAttribute="leading" secondItem="czt-0r-hSM" secondAttribute="trailing" constant="8" id="naA-AM-1na"/>
+                                    <constraint firstAttribute="trailing" secondItem="UrO-J1-QVE" secondAttribute="trailing" constant="8" id="or3-YU-SR9"/>
+                                    <constraint firstItem="quF-Zw-dFJ" firstAttribute="top" secondItem="UrO-J1-QVE" secondAttribute="bottom" constant="30" id="pIt-78-hNd"/>
+                                    <constraint firstAttribute="height" constant="430" id="quh-9E-Kf7"/>
+                                    <constraint firstItem="uUa-38-gY4" firstAttribute="leading" secondItem="Lqr-Ko-jvP" secondAttribute="trailing" constant="8" id="sWV-7l-391"/>
+                                    <constraint firstItem="nSf-lc-qvc" firstAttribute="height" secondItem="quF-Zw-dFJ" secondAttribute="height" id="tTO-At-Phz"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="356-A3-S64" firstAttribute="centerY" secondItem="hHv-hv-Ig4" secondAttribute="centerY" id="0QU-3k-MWB"/>
+                            <constraint firstAttribute="trailing" secondItem="42q-4r-FMD" secondAttribute="trailing" id="KQf-SN-eOs"/>
+                            <constraint firstItem="356-A3-S64" firstAttribute="centerX" secondItem="hHv-hv-Ig4" secondAttribute="centerX" id="OaQ-8E-wdp"/>
+                            <constraint firstItem="Yoj-6G-CIu" firstAttribute="trailing" secondItem="356-A3-S64" secondAttribute="trailing" id="PUE-Ei-tZ1"/>
+                            <constraint firstItem="356-A3-S64" firstAttribute="top" secondItem="Yoj-6G-CIu" secondAttribute="bottom" constant="3" id="Rsl-Nc-vP0"/>
+                            <constraint firstItem="l3B-aU-sLt" firstAttribute="trailing" secondItem="356-A3-S64" secondAttribute="trailing" constant="40" id="cDN-hs-BzC"/>
+                            <constraint firstItem="42q-4r-FMD" firstAttribute="leading" secondItem="hHv-hv-Ig4" secondAttribute="leading" id="dud-PR-gvv"/>
+                            <constraint firstItem="356-A3-S64" firstAttribute="leading" secondItem="l3B-aU-sLt" secondAttribute="leading" constant="40" id="lWr-Qc-8r3"/>
+                            <constraint firstItem="42q-4r-FMD" firstAttribute="top" secondItem="hHv-hv-Ig4" secondAttribute="top" id="oXt-0f-NcM"/>
+                            <constraint firstAttribute="bottom" secondItem="42q-4r-FMD" secondAttribute="bottom" id="tUL-so-2Op"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="l3B-aU-sLt"/>
+                    </view>
+                    <connections>
+                        <outlet property="address" destination="UrO-J1-QVE" id="6aM-ph-QdB"/>
+                        <outlet property="beachLength" destination="KbG-5o-lvo" id="iHQ-fX-aZh"/>
+                        <outlet property="beachTitle" destination="hBw-0E-twA" id="0aK-u3-vq8"/>
+                        <outlet property="beachWidth" destination="nSf-lc-qvc" id="E6L-f1-XuF"/>
+                        <outlet property="linkAddress" destination="5cy-hL-7st" id="jSh-GL-UT6"/>
+                        <outlet property="linkTel" destination="uUa-38-gY4" id="4OC-Lj-OmG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AUz-qA-yPw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1606.875" y="52.816901408450704"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="i85-fA-wGI">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="C6H-6y-o8T" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="0W8-v5-ivY">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -452,9 +612,11 @@
         </scene>
     </scenes>
     <resources>
+        <image name="BeachImage1" width="700" height="466"/>
         <image name="Busan" width="53" height="32"/>
         <image name="Chungcheongbukdo" width="79" height="96"/>
         <image name="Chungcheongnamdo" width="103" height="84"/>
+        <image name="Clear" width="14" height="14"/>
         <image name="Daegu" width="26" height="31"/>
         <image name="Daejeon" width="21" height="23"/>
         <image name="Gangwondo" width="140" height="107"/>

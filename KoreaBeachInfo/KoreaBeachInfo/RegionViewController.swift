@@ -14,6 +14,7 @@ class RegionViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        self.navigationController?.title = "떠나요!"
     }
     
     @IBAction func goMapView(_ sender: UIButton) {
