@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="C6H-6y-o8T">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -198,41 +198,59 @@
                                 <state key="normal" title="인천">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="goMapView:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Kqz-K6-OPf"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aTW-6O-Sfv">
-                                <rect key="frame" x="82" y="323.5" width="59" height="33"/>
+                                <rect key="frame" x="82" y="323.5" width="30" height="33"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
-                                <state key="normal" title="충청남도">
+                                <state key="normal" title="충남">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="goMapView:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eEw-Uz-6a0"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nb1-LJ-8uh">
-                                <rect key="frame" x="107" y="385" width="59" height="33"/>
+                                <rect key="frame" x="107" y="385" width="30" height="33"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
-                                <state key="normal" title="전라북도">
+                                <state key="normal" title="전북">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="goMapView:" destination="BYZ-38-t0r" eventType="touchUpInside" id="frK-px-hX8"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V4J-z9-IbX">
-                                <rect key="frame" x="90" y="481.5" width="59" height="33"/>
+                                <rect key="frame" x="90" y="481.5" width="30" height="33"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
-                                <state key="normal" title="전라남도">
+                                <state key="normal" title="전남">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="goMapView:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jYu-HF-VDc"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n4a-1N-8AN">
-                                <rect key="frame" x="89" y="551" width="45" height="33"/>
+                                <rect key="frame" x="89" y="551" width="30" height="33"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
-                                <state key="normal" title="제주도">
+                                <state key="normal" title="제주">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="goMapView:" destination="BYZ-38-t0r" eventType="touchUpInside" id="W1k-2g-JLa"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u1T-Lq-f9w">
-                                <rect key="frame" x="219" y="459" width="59" height="33"/>
+                                <rect key="frame" x="219" y="459" width="30" height="33"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
-                                <state key="normal" title="경상남도">
+                                <state key="normal" title="경남">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="goMapView:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pLT-y2-dK9"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3mz-xo-WGz">
                                 <rect key="frame" x="298" y="423.5" width="30" height="33"/>
@@ -240,6 +258,9 @@
                                 <state key="normal" title="부산">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="goMapView:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0MK-il-bZJ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gme-1o-ZxI">
                                 <rect key="frame" x="311" y="390" width="30" height="33"/>
@@ -247,20 +268,29 @@
                                 <state key="normal" title="울산">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="goMapView:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6l1-Nc-Z5F"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ww0-zu-s1P">
-                                <rect key="frame" x="299" y="330" width="59" height="33"/>
+                                <rect key="frame" x="299" y="330" width="30" height="33"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
-                                <state key="normal" title="경상북도">
+                                <state key="normal" title="경북">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="goMapView:" destination="BYZ-38-t0r" eventType="touchUpInside" id="acn-ah-AJj"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GAg-aM-XrI">
-                                <rect key="frame" x="276" y="231.5" width="45" height="33"/>
+                                <rect key="frame" x="276" y="231.5" width="30" height="33"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
-                                <state key="normal" title="강원도">
+                                <state key="normal" title="강원">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="goMapView:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BoJ-BD-U77"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -340,9 +370,85 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <navigationItem key="navigationItem" id="s4f-5S-qOD"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="854" y="-664"/>
+        </scene>
+        <!--Beach Map View Controller-->
+        <scene sceneID="6g4-bm-cBU">
+            <objects>
+                <viewController storyboardIdentifier="BeachMapVC" id="WrN-jz-WFO" customClass="BeachMapViewController" customModule="KoreaBeachInfo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="KQJ-Ii-dAB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="zJO-aE-5cx">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <connections>
+                                    <outlet property="delegate" destination="WrN-jz-WFO" id="KKW-Ky-shC"/>
+                                </connections>
+                            </mapView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="standard" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7eO-uq-Roh">
+                                <rect key="frame" x="318.5" y="40" width="46.5" height="12"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="10"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="w0i-3T-bBu">
+                                <rect key="frame" x="261.5" y="31" width="51" height="31"/>
+                                <connections>
+                                    <action selector="mapTypeSwitch:" destination="WrN-jz-WFO" eventType="valueChanged" id="ny0-2d-CJE"/>
+                                </connections>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="satellite" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DXH-hr-MAQ">
+                                <rect key="frame" x="212" y="40" width="41.5" height="12"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="10"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="asC-13-fmu" firstAttribute="bottom" secondItem="zJO-aE-5cx" secondAttribute="bottom" id="9F9-HQ-JUe"/>
+                            <constraint firstItem="w0i-3T-bBu" firstAttribute="leading" secondItem="DXH-hr-MAQ" secondAttribute="trailing" constant="8" id="HSV-ja-wwM"/>
+                            <constraint firstItem="asC-13-fmu" firstAttribute="trailing" secondItem="zJO-aE-5cx" secondAttribute="trailing" id="Nrs-zU-2aJ"/>
+                            <constraint firstItem="w0i-3T-bBu" firstAttribute="centerY" secondItem="DXH-hr-MAQ" secondAttribute="centerY" id="OO0-DR-GEJ"/>
+                            <constraint firstItem="asC-13-fmu" firstAttribute="trailing" secondItem="7eO-uq-Roh" secondAttribute="trailing" constant="10" id="Qsa-ly-6bZ"/>
+                            <constraint firstItem="7eO-uq-Roh" firstAttribute="top" secondItem="asC-13-fmu" secondAttribute="top" constant="20" id="X8U-01-gMs"/>
+                            <constraint firstItem="7eO-uq-Roh" firstAttribute="centerY" secondItem="w0i-3T-bBu" secondAttribute="centerY" id="XFj-91-RV6"/>
+                            <constraint firstItem="zJO-aE-5cx" firstAttribute="leading" secondItem="asC-13-fmu" secondAttribute="leading" id="c7f-lC-fcI"/>
+                            <constraint firstItem="zJO-aE-5cx" firstAttribute="top" secondItem="KQJ-Ii-dAB" secondAttribute="top" id="ehi-Rx-pvR"/>
+                            <constraint firstItem="7eO-uq-Roh" firstAttribute="leading" secondItem="w0i-3T-bBu" secondAttribute="trailing" constant="8" id="hTk-qS-dRV"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="asC-13-fmu"/>
+                    </view>
+                    <connections>
+                        <outlet property="mapView" destination="zJO-aE-5cx" id="FiD-1I-c8w"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W2m-Lz-FO3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1582" y="-664"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="i85-fA-wGI">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="C6H-6y-o8T" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="0W8-v5-ivY">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="oES-uo-uWJ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="34q-bc-TqZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="-664.31784107946032"/>
         </scene>
     </scenes>
     <resources>
