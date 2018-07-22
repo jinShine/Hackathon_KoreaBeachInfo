@@ -23,7 +23,7 @@ struct BeachInfoHTTP {
             "numOfRows": 999,
             "pageSize": 10,
             "SIDO_NM":name,
-            "resultType": "json",
+            "resultType": "json"
             ]
         
         Alamofire

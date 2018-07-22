@@ -71,13 +71,13 @@
 			children = (
 				15FB4E7D21016D080071F8E2 /* Model */,
 				15FB4E672100DDE20071F8E2 /* AppDelegate.swift */,
-				15FB4E6B2100DDE20071F8E2 /* Main.storyboard */,
 				15FB4E792100E2480071F8E2 /* RegionViewController.swift */,
 				15FB4E7B21016BBD0071F8E2 /* BeachMapViewController.swift */,
+				15FB4E822101A85B0071F8E2 /* InfoPopUpViewController.swift */,
+				15FB4E6B2100DDE20071F8E2 /* Main.storyboard */,
 				15FB4E702100DDE30071F8E2 /* LaunchScreen.storyboard */,
 				15FB4E842101AF470071F8E2 /* Assets.xcassets */,
 				15FB4E732100DDE30071F8E2 /* Info.plist */,
-				15FB4E822101A85B0071F8E2 /* InfoPopUpViewController.swift */,
 			);
 			path = KoreaBeachInfo;
 			sourceTree = "<group>";

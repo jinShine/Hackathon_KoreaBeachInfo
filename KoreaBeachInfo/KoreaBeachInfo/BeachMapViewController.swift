@@ -14,61 +14,55 @@ import NVActivityIndicatorView
 
 final class KoreakBeachInfo: MKPointAnnotation {
     var id: Int!
-    var exhibition: [String]!
-    var phoneNumber: String!
     var url: URL!
 }
 
 class BeachMapViewController: UIViewController {
 
+    //MARK: - Property
+    
     @IBOutlet private weak var mapView: MKMapView!
     private let locationManager = CLLocationManager()
     
     private let beacnAnnotationID = "kbeacnAnnotationViewID"
     
     var parsingData: [BeachInfo.ItemInfo.Item] = []
-    var regionName: String = ""
     var activityIndicator : NVActivityIndicatorView!
+    var regionName: String = "" // 전달받은 데이터
     
+    //MARK: - Life Cycle
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        activityIndicator = NVActivityIndicatorView(frame: CGRect(x: self.view.center.x - 20, y: self.view.center.y, width: 50, height: 50))
-        activityIndicator.type = .lineScalePulseOutRapid
-        activityIndicator.color = UIColor.red
-        
-        self.view.addSubview(activityIndicator)
-        activityIndicator.startAnimating()
-        
-        mapView.showsUserLocation = true
         mapView.delegate = self
         locationManager.delegate = self
-        checkAuthorizationStatus()
+        mapView.showsUserLocation = true
         
+        //activityIndicator 설정
+        setupActivityIndicator()
+        activityIndicator.startAnimating()
+        
+        //위치 권한 체크
+        checkAuthorizationStatus()
         
         //카메라 포지션 위치
         currentCameraPosition(region: regionName)
         
-    }
-    
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        
+        //데이터 가져오기
         BeachInfoHTTP.fetch(regionName: regionName) { (Info) in
             let values = Info as BeachInfo
             self.parsingData = values.oceanBeachsInfo.item
             
-//            let mirror = Mirror(reflecting: values.oceanBeachsInfo.item[0])
-//            for x in mirror.children {
-//                if let value = x.value as? String {
-//                    print(value)
-//                }
-//                if let name = x.label as? String {
-//                    print(name)
-//                }
-//            }
-            
-            
+            //            let mirror = Mirror(reflecting: values.oceanBeachsInfo.item[0])
+            //            for x in mirror.children {
+            //                if let value = x.value as? String {
+            //                    print(value)
+            //                }
+            //                if let name = x.label as? String {
+            //                    print(name)
+            //                }
+            //            }
             for index in 0..<values.oceanBeachsInfo.item.count {
                 
                 if let beachId = values.oceanBeachsInfo.item[index].beachId,
@@ -80,12 +74,12 @@ class BeachMapViewController: UIViewController {
                     let beacnKnd = values.oceanBeachsInfo.item[index].beacnKnd,
                     let linkAddr = values.oceanBeachsInfo.item[index].linkAddr,
                     let linkName = values.oceanBeachsInfo.item[index].linkName,
-//                    let beachImage = values.oceanBeachsInfo.item[index].beachImage,
-//                    let linkTel = values.oceanBeachsInfo.item[index].linkTel,
+                    //                    let beachImage = values.oceanBeachsInfo.item[index].beachImage,
+                    //                    let linkTel = values.oceanBeachsInfo.item[index].linkTel,
                     let latitude = values.oceanBeachsInfo.item[index].latitude,
                     let longitude = values.oceanBeachsInfo.item[index].longitude
                 {
-
+                    
                     let annotations = KoreakBeachInfo()
                     annotations.coordinate = CLLocationCoordinate2D(latitude: latitude, longitude: longitude)
                     annotations.title = "\(staName) 해수욕장"
@@ -100,34 +94,25 @@ class BeachMapViewController: UIViewController {
             self.activityIndicator.stopAnimating()
         }
     }
+
+    //MARK: - Method
     
     private func currentCameraPosition (region regionName: String) {
         
         let center:CLLocationCoordinate2D
         
         switch regionName {
-        case "인천":
-            center = CLLocationCoordinate2DMake(37.37081760, 126.64705450)
-        case "충남":
-            center = CLLocationCoordinate2DMake(36.64538930, 126.41439690)
-        case "전북":
-            center = CLLocationCoordinate2DMake(35.65137270, 126.52680700)
-        case "전남":
-            center = CLLocationCoordinate2DMake(34.62350490, 126.62193100)
-        case "제주":
-            center = CLLocationCoordinate2DMake(33.43698830, 126.58751400)
-        case "경남":
-            center = CLLocationCoordinate2DMake(34.96549420, 128.22146450)
-        case "부산":
-            center = CLLocationCoordinate2DMake(35.17514820, 129.07894730)
-        case "울산":
-            center = CLLocationCoordinate2DMake(35.49125620, 129.35166740)
-        case "경북":
-            center = CLLocationCoordinate2DMake(36.30666870, 129.31308070)
-        case "강원":
-            center = CLLocationCoordinate2DMake(37.66246380, 128.77879880)
-        default:
-            center = CLLocationCoordinate2DMake(37.55839650, 126.99847480)
+        case "인천": center = CLLocationCoordinate2DMake(37.37081760, 126.64705450)
+        case "충남": center = CLLocationCoordinate2DMake(36.64538930, 126.41439690)
+        case "전북": center = CLLocationCoordinate2DMake(35.65137270, 126.52680700)
+        case "전남": center = CLLocationCoordinate2DMake(34.62350490, 126.62193100)
+        case "제주": center = CLLocationCoordinate2DMake(33.43698830, 126.58751400)
+        case "경남": center = CLLocationCoordinate2DMake(34.96549420, 128.22146450)
+        case "부산": center = CLLocationCoordinate2DMake(35.17514820, 129.07894730)
+        case "울산": center = CLLocationCoordinate2DMake(35.49125620, 129.35166740)
+        case "경북": center = CLLocationCoordinate2DMake(36.30666870, 129.31308070)
+        case "강원": center = CLLocationCoordinate2DMake(37.66246380, 128.77879880)
+        default: center = CLLocationCoordinate2DMake(37.55839650, 126.99847480)
         }
         
         let span = MKCoordinateSpanMake(0.9, 0.9)
@@ -141,7 +126,6 @@ class BeachMapViewController: UIViewController {
         case .notDetermined: // 유저가 아직 권한을 선택하지 않은 상태
             locationManager.requestWhenInUseAuthorization()
         case .restricted, .denied: // 위치서비스가 거부되었을때
-            // Disable location features
             break
         case .authorizedWhenInUse: // 앱이 실행하는 동안에 위치서비스를 실행
             // Enable basic location features
@@ -152,6 +136,16 @@ class BeachMapViewController: UIViewController {
             // enableMyAlwaysFeatures()
             startUpdatingLocation()
         }
+    }
+    
+    
+    private func setupActivityIndicator() {
+        
+        activityIndicator = NVActivityIndicatorView(frame: CGRect(x: self.view.center.x - 20, y: self.view.center.y, width: 50, height: 50))
+        activityIndicator.type = .lineScalePulseOutRapid
+        activityIndicator.color = UIColor.blue
+        
+        self.view.addSubview(activityIndicator)
     }
     
     private func startUpdatingLocation() {
@@ -165,10 +159,12 @@ class BeachMapViewController: UIViewController {
     }
     
     @IBAction func mapTypeSwitch(_ sender: UISwitch) {
-        if sender.isOn { self.mapView.mapType = .standard}
+        if sender.isOn { self.mapView.mapType = .standard }
         else { self.mapView.mapType = .satellite }
     }
 }
+
+//MARK: - Delegate
 
 extension BeachMapViewController: CLLocationManagerDelegate {
     
@@ -242,9 +238,6 @@ extension BeachMapViewController: MKMapViewDelegate {
             let safariVC = SFSafariViewController(url: annotation.url)
             present(safariVC, animated: true, completion: nil)
         }
-        
-
-        
     }
 }
 

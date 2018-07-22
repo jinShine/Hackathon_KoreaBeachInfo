@@ -9,7 +9,6 @@
 import UIKit
 
 class RegionViewController: UIViewController {
-
     
     override func viewDidLoad() {
         super.viewDidLoad()

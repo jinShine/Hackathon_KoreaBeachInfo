@@ -19,10 +19,8 @@ class InfoPopUpViewController: UIViewController {
     @IBOutlet weak var linkAddress: UILabel!
     @IBOutlet weak var linkTel: UILabel!
     
-    
-    
-    
     var selectedData: [BeachInfo.ItemInfo.Item] = []
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -34,21 +32,13 @@ class InfoPopUpViewController: UIViewController {
             let linkAddr = selectedData[0].linkAddr,
             let linkTel = selectedData[0].linkTel
         {
-            print(gugunName)
-            print(beachWidtd)
             self.beachTitle.text = "\(staName) 해수욕장"
             self.address.text = "\(sidoName) \(gugunName)"
             self.beachWidth.text = "\(Int(beachWidtd))M"
             self.beachLength.text = "\(Int(beachLength))M"
-            
-            let attributedString = NSMutableAttributedString(string: linkAddr, attributes:[NSAttributedStringKey.link: URL(string: linkAddr)!])
-            self.linkAddress.attributedText = attributedString
-            
+            self.linkAddress.text = linkAddr
             self.linkTel.text = linkTel
-
         }
-        
-        
     }
 
     @IBAction func backButton(_ sender: UIButton) {
